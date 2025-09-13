@@ -38,7 +38,7 @@ a {
 }
 
 .container {
-    max-width:1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
 }
@@ -95,7 +95,7 @@ a {
 .nav-item-link:hover::after,
 .nav-item-link:focus::after,
 .nav-item-link.current::after {
-opacity: 1;
+    opacity: 1;
 }
 
 .accent-header {
@@ -137,7 +137,7 @@ opacity: 1;
 
 .contacts {
     font-style: normal;
-   
+
 }
 
 .contacts-list {
@@ -163,7 +163,7 @@ opacity: 1;
 }
 
 .section-title {
-   background-color: #2E2F42;
+    background-color: #2E2F42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/title.jpeg);
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ opacity: 1;
     text-transform: capitalize;
     max-width: 496px;
     margin: 0 auto;
-    
+
 }
 
 .title-button {
@@ -203,8 +203,10 @@ opacity: 1;
     border: none;
     border-radius: 4px;
     margin-top: 48px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
+
 .title-button:hover,
 .title-button:focus {
     background-color: #404BBF;
@@ -297,8 +299,8 @@ opacity: 1;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .people {
@@ -318,15 +320,12 @@ opacity: 1;
     text-align: center;
 }
 
-.team-conteiner {
-    padding: 16px;
-}
-
 .team-list-img {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
+    padding: 16px;
 }
 
 .team-social-item {
@@ -344,11 +343,10 @@ opacity: 1;
 }
 
 .team-social-img {
-   fill: #f4f4fd;
+    fill: #f4f4fd;
 }
-.team-social-link {
 
-} 
+.team-social-link {}
 
 .section-portfolio {
     padding: 120px 0;
@@ -399,7 +397,7 @@ opacity: 1;
     padding: 40px 32px;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 .app {
@@ -453,7 +451,7 @@ opacity: 1;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#FFFFFF;
+    color: #FFFFFF;
     max-width: 264px;
     text-align: left;
     font-weight: 500;
@@ -477,7 +475,7 @@ opacity: 1;
 .footer-link {
     width: 100%;
     height: 100%;
-    background-color:#4d5ae5;
+    background-color: #4d5ae5;
     display: flex;
     border-radius: 50%;
     align-items: center;
