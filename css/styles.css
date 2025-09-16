@@ -318,6 +318,7 @@ a {
 
 .team-text {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list-img {
@@ -325,7 +326,6 @@ a {
     gap: 24px;
     justify-content: center;
     align-items: center;
-    padding: 16px;
 }
 
 .team-social-item {
